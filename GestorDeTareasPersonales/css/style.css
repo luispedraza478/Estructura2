@@ -1,0 +1,48 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+header, footer {
+  background-color: #dcdcdc;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 5px;
+  text-decoration: none;
+  color: blue;
+}
+
+section {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+.color-alta {
+  color: red;
+}
+
+.color-media {
+  color: orange;
+}
+
+.color-baja {
+  color: green;
+}
+
+.completada {
+  text-decoration: line-through;
+  color: gray;
+}

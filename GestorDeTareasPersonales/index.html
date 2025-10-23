@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aplicación web para gestionar tareas personales">
+  <title>Gestor de Tareas</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Gestor de Tareas Personales</h1>
+    <nav>
+      <a href="https://www.uaem.mx/" target="_blank">UAEM</a>
+      <a href="https://www.utez.edu.mx/" target="_blank">UTEZ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Agregar Tarea</h2>
+      <form id="formTarea">
+        <label for="titulo">Título:</label>
+        <input id="titulo" type="text" required><br>
+
+        <label for="fecha">Fecha límite:</label>
+        <input id="fecha" type="date" required><br>
+
+        <label for="prioridad">Prioridad:</label>
+        <select id="prioridad" required>
+          <option value="baja">Baja</option>
+          <option value="media">Media</option>
+          <option value="alta">Alta</option>
+        </select><br>
+
+        <button type="submit">Agregar</button>
+      </form>
+      <p id="mensaje" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Lista de Tareas</h2>
+      <ul id="listaTareas"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - Hecho por un jerincoing de los jericoiners jeringas jerincog</p>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
